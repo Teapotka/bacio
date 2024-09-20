@@ -1,0 +1,48 @@
+/* Container for the login cards */
+.login-container {
+    text-align: center;
+    margin-top: 54px;
+  }
+  
+  h2 {
+    margin-bottom: 30px;
+    font-size: 34px;
+  }
+  
+  /* Card layout */
+  .cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Individual card styling */
+  .card {
+    width: 200px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: white;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Card title */
+  .card h3 {
+    margin-bottom: 10px;
+    font-size: 40px;
+    color: #ff00ff;
+  }
+  
+  /* Card description */
+  .card p {
+    font-size: 20px;
+    color: #555;
+  }
+  

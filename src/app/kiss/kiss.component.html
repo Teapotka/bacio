@@ -1,0 +1,19 @@
+<div class="kiss-container" *ngIf="loggedInUser">
+    <h2>{{ title }}'s Kiss Page</h2>
+    
+    <div class="kiss-count">
+      <h3>You have received <b>{{ kissCount }}</b> kisses!</h3>
+    </div>
+    
+    <div class="kiss-button-container">
+      <button class="kiss-button" (click)="sendKiss()">
+        💋<!-- You can replace this emoji with an image if you prefer -->
+      </button>
+      <p>Send a kiss</p>
+    </div>
+  </div>
+  
+  <div *ngIf="!loggedInUser">
+    <p style="text-align: center; font-size: 30px;">No user is logged in. Please <a href="/login">log in</a> first.</p>
+  </div>
+  

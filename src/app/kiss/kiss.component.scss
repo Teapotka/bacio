@@ -1,0 +1,45 @@
+/* Container for the kiss page */
+.kiss-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  /* Styling for the user name and kiss count */
+  h2 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #333;
+  }
+  
+  .kiss-count h3 {
+    font-size: 30px;
+    color: #555;
+  }
+  
+  /* Button container for the kiss */
+  .kiss-button-container {
+    margin-top: 30px;
+  }
+  
+  .kiss-button {
+    background: none;
+    border: none;
+    font-size: 80px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .kiss-button:active {
+    transform: scale(1.2);
+  }
+  
+  /* Text under the kiss button */
+  .kiss-button-container p {
+    font-size: 30px;
+    color: #777;
+    margin-top: 10px;
+  }
+  
+  b{
+        color: #ff00ff;
+  }
